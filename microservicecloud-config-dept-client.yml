@@ -24,9 +24,9 @@ spring:
 
     type: com.alibaba.druid.pool.DruidDataSource
 
-    driver-class-name: org.gjt.mm.mysql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
-    url: jdbc:mysql://localhost:3306/cloudDB01
+    url: jdbc:mysql://localhost/cloudDB03?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false
 
     username: root
 
@@ -98,9 +98,9 @@ spring:
 
     type: com.alibaba.druid.pool.DruidDataSource
 
-    driver-class-name: org.gjt.mm.mysql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
-    url: jdbc:mysql://localhost:3306/cloudDB02
+    url: jdbc:mysql://localhost/cloudDB03?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false
 
     username: root
 
