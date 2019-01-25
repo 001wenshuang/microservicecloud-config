@@ -22,11 +22,11 @@ spring:
 
    datasource:
 
-    type: com.alibaba.druid.pool.DruidDataSource
+   type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
 
-    driver-class-name: org.gjt.mm.mysql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver             # mysql驱动包
 
-    url: jdbc:mysql://localhost:3306/cloudDB01
+    url: jdbc:mysql://localhost/cloudDB03?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false              # 数据库名称
 
     username: root
 
@@ -96,11 +96,11 @@ spring:
 
    datasource:
 
-    type: com.alibaba.druid.pool.DruidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
 
-    driver-class-name: org.gjt.mm.mysql.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver             # mysql驱动包
 
-    url: jdbc:mysql://localhost:3306/cloudDB02
+    url: jdbc:mysql://localhost/cloudDB03?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT&useSSL=false              # 数据库名称
 
     username: root
 
